@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f4f4f4;
+}
+header {
+    background-color: #246bfd;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 36px;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.about, .skills, .work, .contact {
+    margin-bottom: 40px;
+}
+h2 {
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+#code_langs {
+    width: 8vh;
+    width: 8vh;
+}
+p {
+    line-height: 1.6;
+}
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+.skills ul {
+    display: inline-block;
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+#name:focus, #email:focus, #message:focus {
+    font-weight: bold;
+    transition: ease-in;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    
+}
+#name, #email, #message {
+    font-weight: bold;
+    transition: ease-in;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    border: 3px solid #007BFF;
+}
+#uls:hover {
+    box-shadow: 1px 1px 10px 1px #15b406;
+}
+li:hover {
+    color: red;
+
+}
+button {
+    font-size: 15px;
+    font-weight: bold;
+    transition: ease-out;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+#button:hover {
+    background-color: #0b53a0;
+    color: #666;
+    transition: ease-in;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project {
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+.project:hover {
+    background-color: rgb(44, 42, 42);
+    box-shadow: 10px 10px 50px 10px black;
+}
+.project h3 {
+    margin-bottom: 10px;
+}
+.project p {
+    color: #666;
+}
+#uls {
+    height: 130px;
+    background-color: #246bfd;
+    font-weight: bolder;
+    font-size: 2.5vh;
+    padding: 5%;
+    margin: 1%;
+    border-radius: 5px;
+    transition: ease-out;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+#uls:hover {
+    box-shadow: 3px 3px 7px #246bfd;
+    background-color: #1460b1;
+    transition: ease-in;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    color: white;
+}
+#main_pic {
+    width: 200px;
+    height: 300px;
+    float: right;
+    border: 15px solid #246bfd;
+    border-radius: 300px;
+    border-style: dotted double ridge;
+    transition: ease-in;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#main_pic:hover {
+    transition: ease-out;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    border-style: ridge double dotted;
+}
+#social_media {
+    float: right;
+    transform: rotate(-90deg);
+    position: relative;
+    right: 70px;
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    position: relative;
+    top: 130px;
+    font-weight: bolder;
+    font-size: 20px;
+}
