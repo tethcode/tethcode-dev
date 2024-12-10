@@ -140,7 +140,6 @@ button {
 }
 #social_media {
     float: right;
-    transform: rotate(-90deg);
     position: relative;
     right: 70px;
     font-weight: bold;
