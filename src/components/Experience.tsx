@@ -184,7 +184,7 @@ export default function Experience() {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="max-w-2xl mx-auto text-lg leading-8 text-gray-300"
           >
-            From startup co-founder to freelance innovator, each role has shaped my approach to building exceptional digital solutions.
+            From startup founder to freelance innovator, each role has shaped my approach to building exceptional digital solutions.
           </motion.p>
         </motion.div>
 
