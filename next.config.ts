@@ -26,9 +26,6 @@ const nextConfig: NextConfig = {
     cpus: 1,
   },
 
-  images: {
-    unoptimized: true,
-  },
 
   // 6. Custom Webpack Tuning
   webpack: (config, { dev, isServer }) => {
