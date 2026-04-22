@@ -1,0 +1,10 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="codeDynamiteGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  <path d="M 50,50 L 150,50 L 150,150 L 50,150 Z" fill="none" stroke="url(#codeDynamiteGradient)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 80,80 C 130,80 130,120 80,120 L 80,80 Z" fill="url(#codeDynamiteGradient)" fill-opacity="0.8"/>
+  <rect x="75" y="75" width="10" height="50" rx="3" fill="#facc15"/> </svg>
