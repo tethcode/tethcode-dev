@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "Software Engineer",
     "Developer Portfolio",
   ],
-  author: "Emmanuel Yakubu",
+  authors: [{ name: "Emmanuel Yakubu" }],
   openGraph: {
     title: "Emmanuel Yakubu — Portfolio",
     description:
